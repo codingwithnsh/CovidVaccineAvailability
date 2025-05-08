@@ -38,7 +38,7 @@ Customize the script to check for slots according to your specific needs.
 1.  Open the Python file (`cowin_checker.py` or whatever you named it) in your text editor.
 2.  Locate the section starting with the comment `# CONFIGURATION`.
 3.  Modify the values for the following variables:
-    * `DISTRICT_ID`: Find the numerical ID for your desired district and replace `194` with it. You can often find these IDs by searching online or using tools that interact with the CoWIN API.
+    * `DISTRICT_ID`: Find the numerical ID for your desired district and replace `***` with it. You can often find these IDs by searching online or using tools that interact with the CoWIN API.
     * `CHECK_INTERVAL`: Change the value (default is `60`) to set how often the script checks for slots, in seconds. A value of `60` means it checks every minute.
     * `AGE_LIMIT`: Set this to `18` if you are looking for slots for ages 18 and above, or `45` for ages 45 and above.
     * `MIN_DOSES`: Set this to the minimum number of vaccine doses that must be available at a center for the script to consider it a valid slot and notify you (default is `1`).
